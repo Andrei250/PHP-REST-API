@@ -10,7 +10,7 @@ Configuration:
 		INC_PATH is the path for includes directory
 		CORE_PATH is the path for core directory
 
-	You have you change the define() for SITE_ROOT.
+	You have to change the define() for SITE_ROOT.
 Used databse: MySQL.
 I also used PHP 7.2 and Linux Ubuntu.
 
