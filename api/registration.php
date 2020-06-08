@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Registration | Webdevtrick.com</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="../css/style.css" />
 </head>
 <body>
