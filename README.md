@@ -1,4 +1,4 @@
-# PHP-CRUD-API
+# PHP-REST-API
 
 Simple PHP CRUD API for my internship interview at 2checkout Bucharest. 
 I do not customize it a lot, because the job I applied for is back-end developer.
