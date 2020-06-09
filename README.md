@@ -15,7 +15,7 @@ Used databse: MySQL.
 I also used PHP 7.2 and Linux Ubuntu.
 
 DB for products has the following fields: id, name, price, category, created_date, updated_date
-DB for users has the following fields: id, name, password, crated_at
+DB for users has the following fields: id, name, password, created_at
 
 create table <dbName>.products
 (
