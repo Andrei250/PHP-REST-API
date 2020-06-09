@@ -17,7 +17,7 @@ I also used PHP 7.2 and Linux Ubuntu.
 DB for products has the following fields: id, name, price, category, created_date, updated_date
 DB for users has the following fields: id, name, password, created_at
 
-create table <dbName>.products
+create table {dbName}.products
 (
     id           int auto_increment
         primary key,
@@ -28,7 +28,7 @@ create table <dbName>.products
     updated_date date         not null
 );
 
-create table <dbName>.users
+create table {dbName}.users
 (
     id         int auto_increment
         primary key,
