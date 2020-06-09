@@ -14,3 +14,28 @@ Configuration:
 Used databse: MySQL.
 I also used PHP 7.2 and Linux Ubuntu.
 
+DB for products has the following fields: id, name, price, category, created_date, updated_date
+DB for users has the following fields: id, name, password, crated_at
+
+create table <dbName>.products
+(
+    id           int auto_increment
+        primary key,
+    name         varchar(256) not null,
+    price        int          not null,
+    category     varchar(256) null,
+    created_date date         not null,
+    updated_date date         not null
+);
+
+create table <dbName>.users
+(
+    id         int auto_increment
+        primary key,
+    name       varchar(50)                        not null,
+    password   varchar(256)                       not null,
+    created_at datetime default CURRENT_TIMESTAMP not null,
+    constraint table_name_name_uindex
+        unique (name)
+);
+
